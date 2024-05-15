@@ -1,0 +1,6 @@
+As $@role, summarize a text. Notice: $@goal
+
+According to the goal, summarize the following text to shorten it to around 200 words, but keep as much definitional and foundational information intact as possible:
+"""$@context”""
+
+Only output the summary.

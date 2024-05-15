@@ -1,0 +1,14 @@
+Read a text under the help of the current context to find information relevant to the current goals. At the end, update the context given the rules for future analysis.
+
+"current goals": """$@goal""",
+
+"current context": """$@context"""
+
+"the text":"""$@paragraph"""
+
+"rules":
+1. Some background information about the current processing phase towards the goals will be provided in 'context', you will find "new information relevant to the current goal" from the provided text that is not present in the current context. The new information should be self-explanatory in two or three sentences.
+2. Add "new information" relevant to the "current goal" into the "current context" as an update. The "updated context" should keep (!!!) information in the "current context".
+
+Output your response in the a python dictionary format only (!!!): {"comment on the relevancy of current context":".....", "new information relevant to the current goals":"....", "updated context":"..."}.
+

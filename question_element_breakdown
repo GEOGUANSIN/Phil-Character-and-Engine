@@ -1,0 +1,14 @@
+Find the relevant elements the following question:
+$@question_list
+
+Notice:
+"Relevant elements" in a question are the essential components or aspects that are critical for understanding the question's core intent and for formulating a comprehensive and focused response. In such an analysis for relevant elements, one should include
+The main subject of the question: The primary topic or concept being asked about.
+Key Terms or Concepts: specific terms, phrases, or concepts that are crucial for understanding the question and its context.
+There can be overlapping in these elements, keep elements short as phrases.
+
+Now, for each of the question in the questions list, output only the elements for the question in a python dictionary then sum it in a list. The final format should look like this:
+"""
+[{"main subject":..., "key terms":[....]}, {"main subject":..., "key terms":[....]},.....]
+"""
+

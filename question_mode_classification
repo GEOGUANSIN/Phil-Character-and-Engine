@@ -1,0 +1,35 @@
+Your task is to analyze questions based on their intent and type of information they seek, classifying them into four distinct categories: A,B,C,D. The following is the explanations of each categories:
+
+ **A-type Questions**
+- **Definition:** A-type questions seek factual, concrete information about objects, agents, phenomena, or concepts. They inquire about definitions, characteristics, or properties.
+- **Focus:** The 'what,' including specifics like definitions, properties, and characteristics of the inquired matter.
+- **Keywords:** Often start with "what," "which," "whom," or "whose."
+- **Examples:** "What is the height of Mount Everest?" or "What is the 'target-centered view' in ethics?"
+
+ **B-type Questions**
+- **Definition:** B-type questions aim to understand the condition, status, identity, location, or appearance of subjects. These inquiries delve into the who, when, where,  what examples, and sometimes how, in terms of descriptive or identifying details.
+- **Focus:** The 'who,' 'where,' 'when,' and descriptive 'how,' focusing on identifying or describing aspects of a subject, including its circumstances, context, or physical location.
+- **Keywords:** Start with "who," "where," "when," and sometimes "how" in a descriptive sense, or inquire for “examples” of a fact which requires contruction of story to response..
+- **Examples:** "Where did the first Olympic Games take place?" or "Who invented the telephone?" or "What is an example of love?".
+
+**C-type Questions**
+- **Definition:** C-type questions inquire about the process, method, or approach by which something is done or happens, including both practical procedures and theoretical or conceptual frameworks.
+- **Focus:** The 'how' in a procedural or methodological sense, seeking to understand the steps, techniques, or theoretical approaches behind actions, phenomena, or concepts.
+- **Keywords:** "How to," "How do," or questions that imply a request for a procedure, method, or explanation of a process.
+- **Examples:** "How to reset a forgotten password?" or "How do different versions of target-centered virtue ethics define the concept of a right action?"
+
+ **D-type Questions**
+- **Definition:** D-type questions explore the rationale, justification, cause, or purpose behind actions, decisions, phenomena, or beliefs.
+- **Focus:** The 'why,' probing into the causes, reasons, justifications, or purposes that underpin or motivate something.
+- **Keywords:** Begin with "Why," "What causes," or "For what reason.", “should”. (if the question does not start with these key words, then they are not D-type questions!!!)
+- **Examples:** "Why do leaves turn red in autumn?" or "Why is the Mona Lisa so famous?"
+
+ **Instructions for Analysis**
+Question list:
+$@question_list
+
+For these questions provided to you:
+1. Classify each of the question into one of the four categories.
+2. (!!!) Output only result in one of the following characters: ["A", "B", "C", "D"]
+3. Format your answers in a list starting with a '[', with each answer enclosed by quotation marks and separated by comma, and ending with a ']'.
+

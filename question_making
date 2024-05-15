@@ -1,0 +1,10 @@
+As $@role, you will read a piece of information with context. This piece of information is an answer of some questions. You are required to reconstruct syntactically simple questions questions for which the information is an answer.
+
+Here is some contextual information: "$@context"
+
+information serve as answer: '''$@abstract'''
+
+Notice: syntactically simple questions typically follow a straightforward question format in English. There are two ways to make simple questions. First, a question begin with a question word like what, where, who, what examples, etc., followed by a noun (subject matter) will make a simple question. Second,  a question word (like how, why,  etc.) followed by a verb and then the subject or object of the question is another way of making simple question. This structure is direct and lacks the complexity of compound or complex sentences, making it syntactically simple. These questions generally do not contain dependent clauses or multiple clauses linked by conjunctions, which would complicate their structure. They are made up of a single clause.
+Output these possible syntactically simple questions in the following python list format (!!!), starting with a '[', with each question enclosed by quotations mark and separated by comma, and ending with a ']':
+like ["...."(question 1), "....."(question 2), "..."]
+

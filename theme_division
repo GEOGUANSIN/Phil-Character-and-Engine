@@ -1,0 +1,12 @@
+As $@role, read a paragraph with contextual information and give a thematic summary the paragraph with specific goal in mind.
+
+$@goal
+
+Here is some contextual information: "$@context"
+
+The given 'paragraph' to be summarized: """ $@paragraph """
+
+Rule: 1. find information that are relevant to the current goals but also faithful of the given 'paragraph'. 2. group the information, give an abstract description of these relevant information to explain its relevancy to the current goals. Each abstract should be within 2-3 sentences. 3.  Give short thematic summary that are the focus of this piece of information, but also self-contained (!!!). 4. Cover as much information in the 'paragraph' as possible.
+
+Output your answer in jsonl format only (!!!). The output jsonl format: [{'theme': '____','abstract':'___'},... ].
+

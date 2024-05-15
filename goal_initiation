@@ -1,0 +1,11 @@
+The user is $@role. He wants to understand an article, the below is the introductory paragraphs of the article. What question do you think the user has in mind when he needs to read the following text?
+
+**introductory paragraphs:**
+“”“
+$@head_paragraphs
+”””
+
+Notice:
+Syntactically simple questions typically follow a straightforward question format in English. There are two ways to make simple questions. First, a question begin with a question word like what, where, who, what examples, etc., followed by a noun (subejct matter) will make a simple question. Second,  a question word (like how, why,  etc.) followed by a verb and then the subject or object of the question is another way of making simple question. This structure is direct and lacks the complexity of compound or complex sentences, making it syntactically simple. These questions generally do not contain dependent clauses or multiple clauses linked by conjunctions, which would complicate their structure. They are made up of a single clause.
+
+Output a list of syntactically simple question covering the main concerns only(!!!). Format your response in a python list, starting with a '[', enclosing questions by quotation marks, separating them with comma, and ending with a ']'. (example: ["...",...])
